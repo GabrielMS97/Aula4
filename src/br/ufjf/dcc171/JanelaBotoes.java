@@ -36,6 +36,8 @@ class JanelaBotoes extends JFrame {
 
         @Override
         public void actionPerformed(ActionEvent e) {
+            NovaClasse nc = new NovaClasse(2,4);
+            nc.resultado();
             if (e.getSource() == btn1) {
                 b1++;
                 JOptionPane.showMessageDialog(null, "Gol da Alemanha\nAlemanha " + b1 + " X Brasil " + b2, "Mensagem", JOptionPane.INFORMATION_MESSAGE);
